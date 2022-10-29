@@ -1,0 +1,62 @@
+JvmtiExport can_access_local_variables 0
+JvmtiExport can_hotswap_or_post_breakpoint 0
+JvmtiExport can_post_on_exceptions 0
+# 502 ciObject found
+ciMethod java/lang/Object <init> ()V 4097 1 3709748 0 0
+ciMethod java/lang/Object getClass ()Ljava/lang/Class; 2049 1 256 0 -1
+ciMethod java/lang/Object hashCode ()I 3073 1 384 0 -1
+ciMethod java/lang/Object equals (Ljava/lang/Object;)Z 3121 1 34564 0 -1
+ciMethod java/lang/String equals (Ljava/lang/Object;)Z 2113 1 15651 0 -1
+ciMethod java/lang/String hashCode ()I 2081 1 18892 0 480
+ciMethod java/lang/String concat (Ljava/lang/String;)Ljava/lang/String; 3081 1 5517 0 -1
+ciMethod java/lang/String format (Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String; 0 0 29 0 0
+ciMethod java/lang/String valueOf (Ljava/lang/Object;)Ljava/lang/String; 25 1 39738 0 -1
+ciMethod java/lang/String isLatin1 ()Z 3081 1 1047839 0 64
+ciMethod java/lang/System arraycopy (Ljava/lang/Object;ILjava/lang/Object;II)V 2049 1 256 0 -1
+ciMethod java/lang/Throwable getMessage ()Ljava/lang/String; 9 1 1 0 -1
+ciMethod java/util/Map isEmpty ()Z 0 0 1 0 -1
+ciMethod java/util/Map containsKey (Ljava/lang/Object;)Z 0 0 1 0 -1
+ciMethod java/util/Map get (Ljava/lang/Object;)Ljava/lang/Object; 0 0 1 0 -1
+ciMethod java/util/Map put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; 0 0 1 0 -1
+ciMethod java/lang/Float isNaN (F)Z 2065 1 34170 0 64
+ciMethod java/lang/Double doubleValue ()D 1025 1 128 0 -1
+ciMethod java/lang/Double doubleToLongBits (D)J 2169 1 41083 0 -1
+ciMethod java/lang/Integer valueOf (I)Ljava/lang/Integer; 281 1 102453 0 -1
+ciMethod java/lang/Integer numberOfLeadingZeros (I)I 153 1 7188 0 -1
+ciMethod java/util/Collection size ()I 0 0 1 0 -1
+ciMethod java/util/Set addAll (Ljava/util/Collection;)Z 0 0 1 0 -1
+ciMethod java/util/Set retainAll (Ljava/util/Collection;)Z 0 0 1 0 -1
+ciMethod java/util/Set equals (Ljava/lang/Object;)Z 0 0 1 0 -1
+ciMethod java/util/Set hashCode ()I 0 0 1 0 -1
+ciMethod java/util/Objects checkIndex (II)I 2225 1 71607 1 -1
+ciMethod java/util/HashMap hash (Ljava/lang/Object;)I 2897 1 127540 0 160
+ciMethod java/util/HashMap comparableClassFor (Ljava/lang/Object;)Ljava/lang/Class; 1161 1 461 0 -1
+ciMethod java/util/HashMap compareComparables (Ljava/lang/Class;Ljava/lang/Object;Ljava/lang/Object;)I 0 0 1 0 -1
+ciMethod java/util/HashMap tableSizeFor (I)I 2249 1 306 0 0
+ciMethod java/util/HashMap <init> (IF)V 52737 1 6784 0 0
+ciMethod java/util/HashMap <init> (I)V 105 1 2298 0 0
+ciMethod java/util/HashMap <init> ()V 2105 1 58947 0 64
+ciMethod java/util/HashMap isEmpty ()Z 2057 1 32026 0 64
+ciMethod java/util/HashMap get (Ljava/lang/Object;)Ljava/lang/Object; 3473 1 40662 0 672
+ciMethod java/util/HashMap getNode (ILjava/lang/Object;)Ljava/util/HashMap$Node; 3161 81 21124 0 544
+ciMethod java/util/HashMap containsKey (Ljava/lang/Object;)Z 2033 1 5473 0 672
+ciMethod java/util/HashMap put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; 4097 1 35021 0 224
+ciMethod java/util/HashMap putVal (ILjava/lang/Object;Ljava/lang/Object;ZZ)Ljava/lang/Object; 102961 5081 42464 0 3232
+ciMethod java/util/HashMap resize ()[Ljava/util/HashMap$Node; 569 2025 3181 0 -1
+ciMethod java/util/HashMap treeifyBin ([Ljava/util/HashMap$Node;I)V 1 1 46 0 -1
+ciMethod java/util/HashMap newNode (ILjava/lang/Object;Ljava/lang/Object;Ljava/util/HashMap$Node;)Ljava/util/HashMap$Node; 2049 1 16158 0 -1
+ciMethod java/util/HashMap afterNodeAccess (Ljava/util/HashMap$Node;)V 16537 1 2067 0 -1
+ciMethod java/util/HashMap afterNodeInsertion (Z)V 2049 1 1329 0 -1
+ciMethod java/util/AbstractMap <init> ()V 2073 1 60370 0 32
+ciMethod java/lang/StringLatin1 hashCode ([B)I 833 16385 1020 0 384
+ciMethod java/util/Collections$EmptyList isEmpty ()Z 1041 1 130 0 0
+ciMethod java/util/List size ()I 0 0 1 0 -1
+ciMethod java/util/List isEmpty ()Z 0 0 1 0 -1
+ciMethod java/util/List get (I)Ljava/lang/Object; 0 0 1 0 -1
+ciMethod java/lang/StringUTF16 getChar ([BI)C 3169 1 1464 0 -1
+ciMethod java/lang/StringUTF16 hashCode ([B)I 1 1 4 0 0
+ciMethodData java/lang/StringLatin1 hashCode ([B)I 2 26070 orig 320 144 166 221 165 251 127 0 0 56 137 214 48 0 0 0 0 168 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 8 0 0 161 28 0 0 177 238 2 0 0 0 0 0 0 0 0 0 0 0 0 0 248 3 0 0 248 31 0 0 2 0 0 0 1 0 6 0 2 0 0 0 0 0 0 0 56 0 0 0 254 255 255 255 7 0 13 0 0 0 0 0 data 14 0xd0007 0x394 0x38 0x5dc1 0x250003 0x5dc1 0xffffffffffffffe0 0x0 0x0 0x0 0x0 0x9 0x1 0x0 oops 0 methods 0
+ciMethodData java/lang/String isLatin1 ()Z 2 1047840 orig 320 144 166 221 165 251 127 0 0 240 162 193 48 0 0 0 0 200 1 0 0 32 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 129 1 0 0 249 220 127 0 1 0 0 0 35 65 8 0 0 0 0 0 0 0 0 0 248 3 0 0 248 31 0 0 2 0 0 0 0 0 7 0 2 0 0 0 0 0 0 0 88 0 0 0 254 255 255 255 7 0 3 0 0 0 0 0 data 18 0x30007 0x0 0x58 0xffbe0 0x80000006000a0007 0x1ee 0x38 0xff9f3 0xe0003 0xffa09 0x18 0x0 0x0 0x0 0x0 0x9 0x1 0x0 oops 0 methods 0
+ciMethodData java/lang/Object <init> ()V 2 3709795 orig 320 144 166 221 165 251 127 0 0 16 6 193 48 0 0 0 0 88 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 25 203 196 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 248 3 0 0 248 31 0 0 2 0 0 0 0 0 3 0 1 0 0 0 0 0 0 0 0 0 0 0 254 255 255 255 0 0 0 0 0 0 0 0 data 4 0x0 0x9 0x1 0x0 oops 0 methods 0
+ciMethodData java/lang/String hashCode ()I 2 18892 orig 320 144 166 221 165 251 127 0 0 192 107 193 48 0 0 0 0 80 2 0 0 64 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 17 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 1 0 0 65 70 2 0 1 0 0 0 95 51 0 0 0 0 0 0 0 0 0 0 248 3 0 0 248 31 0 0 2 0 0 0 1 0 19 0 2 0 0 0 0 0 0 0 208 0 0 0 254 255 255 255 7 0 6 0 0 0 0 0 data 35 0x60007 0x32ee 0xd0 0x15db 0x80000006000e0007 0x4f 0xb0 0x158d 0x130005 0x158d 0x0 0x0 0x0 0x0 0x0 0x160007 0x2 0x48 0x158c 0x1d0002 0x158c 0x200003 0x158c 0x28 0x270002 0x2 0x0 0x0 0x0 0x0 0x0 0x0 0x9 0x1 0x4 oops 0 methods 0
+ciMethodData java/lang/StringUTF16 hashCode ([B)I 1 97 orig 320 144 166 221 165 251 127 0 0 0 219 221 48 0 0 0 0 200 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 17 0 0 0 0 0 0 0 0 0 0 
