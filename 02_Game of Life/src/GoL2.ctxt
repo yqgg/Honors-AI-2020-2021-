@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=GoL2
+comment1.params=
+comment1.target=GoL2()
+comment2.params=r\ c
+comment2.target=int\ test(int,\ int)
+comment3.params=r\ c
+comment3.target=int\ neighborCount(int,\ int)
+comment4.params=
+comment4.target=void\ updateBoard()
+numComments=5
